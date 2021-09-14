@@ -1,0 +1,118 @@
+/*Header begin*/
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 0px 15.2% 0 16.515%;
+  box-sizing: border-box;
+  z-index: 3;
+}
+.logo {
+  float: left;
+  padding: 47px 0;
+  overflow: hidden;
+}
+img[alt="logo"] {
+  height: 100%;
+}
+.header nav {
+  overflow: hidden;
+  transition: all 0.2s;
+}
+.header ul {
+  position: relative;
+  float: right;
+}
+.header li {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 55px 20px;
+  font-size: 14px;
+  float: left;
+  text-transform: uppercase;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s;
+}
+.header li:hover {
+  border-color: #fff;
+}
+.header li:active {
+  color: #ffb200;
+}
+.active {
+  border-color: #fff;
+  position: relative;
+}
+#active-border {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: #fff;
+  border-bottom: 2px solid #fff;
+  transition: all 0.3s;
+}
+img[alt="mobile-menu"] {
+  height: 50px;
+  width: 50px;
+  margin: 30px 15px;
+  padding: 35px 40px;
+  float: right;
+  display: none;
+}
+
+div#tent {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  z-index: 1;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.99) 0%, rgba(0,0,0,0.98) 9%, rgba(0,0,0,0.92) 40%, rgba(0,0,0,0.88) 72%, rgba(0,0,0,0.81) 100%);
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.99) 0%,rgba(0,0,0,0.98) 9%,rgba(0,0,0,0.92) 40%,rgba(0,0,0,0.88) 72%,rgba(0,0,0,0.81) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.99) 0%,rgba(0,0,0,0.98) 9%,rgba(0,0,0,0.92) 40%,rgba(0,0,0,0.88) 72%,rgba(0,0,0,0.81) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc000000', endColorstr='#cf000000',GradientType=0 );
+}
+/*Header end*/
+
+@media all and (max-width: 1200px) {
+  .header {
+    padding: 0px 8.2% 0 10.515%;
+  }
+}
+@media all and (max-width: 1035px) {
+  .header {
+     padding: 0;
+  }
+  img[alt="mobile-menu"] {
+    display: block;
+  }
+  .header nav {
+    float: right;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    padding: 0px 3.2% 0 0;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: -1px;
+    transform: translateX(100%);
+  }
+  .header li {
+    font-size: 26px;
+    border-bottom: 6px solid transparent;
+  }
+  .header li:hover {
+    border-bottom: 6px solid #fff;
+  }
+  img[alt="logo"] {
+    float: left;
+  }
+  .logo {
+    padding: 65px 0 65px 65px;
+    height: 50px;
+  }
+  #active-border {
+    border-bottom: 5px solid #fff;
+    bottom: 0px;
+  }
+}

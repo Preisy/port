@@ -1,0 +1,48 @@
+/*portfolio begin*/
+.portfolio {
+  padding-bottom: 70px;
+  padding: 120px 15.1%;
+}
+.portfolio-wrapper {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.merit {
+  background-color: #fff;
+  padding-bottom: 27px;
+  margin-bottom: 50px;
+  opacity: 1;
+  transition: all 0.3s;
+}
+.merit img {
+  transition: all 0.4s;
+}
+.merit:hover img {
+  transform: scale(1.2);
+}
+.merit:hover {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.wrap-img-merit {
+  overflow: hidden;
+  width: 291px;
+  height: 300px;
+}
+.merit h5 {
+  margin: 29px 0 4px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color:  #333333;
+  font-size: 18px;
+  font-weight: 700;
+}
+.merit p {
+  font-family: 'Droid Serif Italic';
+  color:  #737373;
+  font-size: 14px;
+}
+/*portfolio end*/
