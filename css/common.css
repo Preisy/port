@@ -1,0 +1,170 @@
+/*font-family: 'Montserrat Alternates', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700i&subset=cyrillic,cyrillic-ext');
+
+/*font-family: 'Droid Serif Italic';*/
+
+/*font-family: 'Droid Serif Regular';*/
+
+
+
+  /*common*/
+
+.structure {
+
+  margin: 0 auto;
+
+  padding: 120px 16.515%;
+
+  text-align: center;
+
+  overflow: hidden;
+
+}
+
+.grey {
+
+  background-color:  #f7f7f7;
+
+}
+
+h3 {
+
+  font-family: 'Montserrat Alternates', sans-serif;
+
+  color: #222222;
+
+  font-size: 40px;
+
+  font-weight: 700;
+
+  line-height: 30px;
+
+  margin-bottom: 20px;
+
+  text-transform: uppercase;
+
+}
+
+h3 + p {
+
+  font-family: 'Droid Serif Italic';
+
+  color: #777777;
+
+  font-size: 16px;
+
+  padding-bottom: 80px;
+
+}
+
+h4 {
+
+  padding-bottom: 14px;
+
+  font-family: 'Montserrat Alternates';
+
+  color: #222222;
+
+  font-size: 18px;
+
+  font-weight: 700;
+
+}
+
+h4 ~ p {
+
+  font-family: 'Droid Serif Regular';
+
+  color: #777777;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 21px;
+
+}
+
+img,
+
+h1, h2, h3, h6,
+
+h3 + p,
+
+.header,
+
+.welcome {
+
+  -webkit-user-select: none;
+
+  -moz-user-select: none;
+
+  -ms-user-select: none;
+
+  -o-user-select: none;
+
+  user-select: none;
+
+}
+
+.clearfix:after {
+
+  content: '';
+
+  display: block;
+
+  clear: both;
+
+}
+
+  /*common end*/
+
+
+
+/*other*/
+
+.line {
+
+  height: 20px;
+
+  background: #dcdcdc;
+
+}
+
+
+
+
+
+@media all and (max-width: 1035px) {
+
+  h3 {
+
+    font-size: 45px;
+
+    line-height: 35px;
+
+  }
+
+  h3 + p {
+
+    font-size: 20px;
+
+  }
+
+  h4 {
+
+    font-size: 29px;
+
+  }
+
+  h4 ~ p {
+
+    font-size: 28px;
+
+    line-height: 28px;
+
+  }
+
+}
+
