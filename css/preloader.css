@@ -1,0 +1,15 @@
+#preloader {
+   bottom: 0%;
+   left: 0%;
+   margin: auto;
+   position: fixed;
+   right: 0%;
+   top: 0%;
+   z-index: 10;
+   background-color: rgb(53, 53, 53);
+   opacity: 1;
+   transition: opacity 0.4s;
+}
+#hidden {
+   display: none;
+}

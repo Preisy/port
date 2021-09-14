@@ -1,0 +1,26 @@
+/*services begin*/
+.services {
+  padding: 120px 15.515% 70px ;
+}
+.wrapper-services {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.service {
+  width: 30.2%;
+}
+.service img {
+  margin-bottom: 24px;
+  border-radius: 50%;
+}
+/*services end*/
+
+@media all and (max-width: 1035px) {
+  .service {
+    width: 300px;
+    margin-bottom: 50px;
+  }
+}

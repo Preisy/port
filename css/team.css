@@ -1,0 +1,53 @@
+/*team begin*/
+.team {
+  padding: 120px 11.6%;
+}
+.team h3:first-child {
+  margin-bottom: 24px;
+}
+.member h4 {
+  padding-bottom: 4px;
+}
+.members {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 49px;
+  flex-wrap: wrap;
+}
+.img-member {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 224px;
+  height: 225px;
+  margin-bottom: 19px;
+  overflow: hidden;
+}
+.img-member:hover img {
+  transform: scale(1.15);
+}
+.img-member img {
+  height: 100%;
+  transition: all 0.4s;
+}
+.members-paragraph {
+  font-family: 'Droid Serif Regular';
+  color: #777777;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 11.2%;
+  line-height: 21px;
+}
+/*team end*/
+
+@media all and (max-width: 1035px) {
+  .members-paragraph {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .img-member {
+    display: inline-block;
+  }
+}
