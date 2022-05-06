@@ -3,11 +3,10 @@
 #include "vector"
 
 #include "lib.h"
-#include "Table.h"
-
+#include "KeySpace1.h"
 
 
 int main() {
-    Table<int> a;
+    KeySpace1<int>* ks = new KeySpace1<int>();
     return 0;
 }

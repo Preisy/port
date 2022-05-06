@@ -30,5 +30,4 @@ public:
     Item& operator=(Item && node) = default;
 };
 
-
 #endif //LAB_3_ITEM_H

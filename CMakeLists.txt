@@ -8,8 +8,8 @@ include_directories(lib)
 
 add_executable(lab_3
         main.cpp
-        src/KeySpaces/KeySpace1/KeySpace1.h
-        src/KeySpaces/Item.h
+        src/KeySpace1.h
+        src/Item.h
         )
 
 add_executable(iterator1 iterators/iterator1.cpp)

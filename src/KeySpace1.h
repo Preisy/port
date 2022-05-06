@@ -3,12 +3,11 @@
 
 #include "vector"
 #include "algorithm"
-#include "KeySpaces/IKeySpace.h"
-#include "KeySpaces/Item.h"
+#include "Item.h"
 #include "lib.h"
 
 template<class Data>
-class KeySpace1 : public IKeySpace<Data> {
+class KeySpace1 {
 private:
     lib::LinkedList<lib::LinkedList<Item<Data>>> list = lib::LinkedList<lib::LinkedList<Item<Data>>>();
 
